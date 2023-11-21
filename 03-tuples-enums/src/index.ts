@@ -44,8 +44,8 @@ const normalUser: LoginUser = {
 const accessReport = (user: LoginUser): string => {
   return `${user.email} has ${
     user.role === "admin"
-      ? "authority to edit users."
-      : "not able to edit users."
+      ? "authority to edit, delete users."
+      : "not able to edit, delete users."
   }`;
 };
 

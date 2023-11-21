@@ -1,3 +1,4 @@
+// type annotation
 let firstName: string = "virat";
 
 let age: number = 20;

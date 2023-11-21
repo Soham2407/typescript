@@ -19,7 +19,7 @@ let obj2: {
 
 console.log(obj2);
 
-// type alias
+// type alias - create custom type
 type User = {
   firstName: string;
   age: number;
